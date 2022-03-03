@@ -11,4 +11,6 @@ rm -fr /usr/local/qcloud
 
 ps -A | grep agent
 
+echo "即将重启"
+sleep 2
 reboot
