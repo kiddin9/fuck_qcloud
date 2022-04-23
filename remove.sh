@@ -6,7 +6,7 @@
 
 systemctl stop tat_agent
 systemctl disable tat_agent
-rm -rf /etc/systemd/system/tat_agent.service
+# rm -rf /etc/systemd/system/tat_agent.service
 
 ps -A | grep agent
 
